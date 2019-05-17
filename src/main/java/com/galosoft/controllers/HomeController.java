@@ -32,4 +32,11 @@ public class HomeController {
 	public String getInicio4() {
 		return "inicio4";
 	}
+	
+	@RequestMapping("/portafolio")
+	public String getPortafolio() {
+		return "portafolio";
+	}
+	
+	
 }
