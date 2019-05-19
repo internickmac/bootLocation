@@ -38,5 +38,17 @@ public class HomeController {
 		return "portafolio";
 	}
 	
+	@RequestMapping("/galery")
+	public String getGalery() {
+		return "galeria";
+	}
+	
+	@RequestMapping("/blog")
+	public String getBlog() {
+		return "blog";
+	}
+	
+	
+	
 	
 }
