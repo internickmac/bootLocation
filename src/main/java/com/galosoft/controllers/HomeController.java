@@ -48,7 +48,15 @@ public class HomeController {
 		return "blog";
 	}
 	
+	@RequestMapping("/shop")
+	public String getShop() {
+		return "shop";
+	}
 	
+	@RequestMapping("/product")
+	public String getProduct() {
+		return "product";
+	}
 	
 	
 }
